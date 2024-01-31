@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Match Booking</title>
+    <link rel="icon" href="https://logowik.com/content/uploads/images/chennaiyin-fc5539.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+   <style>
+    body{
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Salsa', cursive;
+    background-color: burlywood;
+}
+    form{
+        margin: 10px;
+        padding: 10px;
+    }
+    table{
+        padding: 5px;
+    }
+    p{
+        font-size: 20px;
+        color: #00008B;
+        text-shadow: 3px 2px 2px white, 0 0 25px #00008B, 0 0 5px blue;
+    }
+</style>
+<body>
+    <center>
+    <p >Booking Tickets</p>
+     <Form>
+        <table>
+            <tr>
+                <td>Name :</td> <td><input type="text" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td>Email :</td> <td><input type="email" placeholder="Enter Your Email"></td>
+            </tr>
+            <tr>
+                <td>Phone :</td> <td><input type="number" placeholder="Enter Your PhoneNumber"></td>
+            </tr>
+            <tr>
+                <td>Number Of Tickets :</td> <td><input type="text" placeholder="Tickets Numbers"></td>
+            </tr>
+            <tr>
+                <td>Select Your Match :</td>
+                <td>
+                    <select>
+                        <option>chennaiyin FC V/S Mumbai City FC </option>
+                        <option>chennaiyin FC V/S Kerala Blasters FC </option>
+                        <option>chennaiyin FC V/S FC Goa </option>
+                        <option>chennaiyin FC V/S Odisha FC </option>
+                        <option>chennaiyin FC V/S Bengaluru FC </option>
+                        <option>chennaiyin FC V/S FC Pune City </option>
+                        <option>chennaiyin FC V/S Hyderabad FC </option>
+                        <option>chennaiyin FC V/S East Bengal FC </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </Form>
+</center>
+<center>
+    <input type="submit" style="margin: 5px; background: blue; color: white;" onclick="myFunction()">
+</center>
+
+<script>
+    function myFunction(){
+        alert ("Your Tickets Is successfully Booking");
+    }
+
+</script>
+    
+</body>
+</html>
